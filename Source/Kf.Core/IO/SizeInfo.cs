@@ -81,6 +81,15 @@ namespace Kf.Core.IO
         }
 
         /// <summary>
+        /// Creates a new <see cref="SizeInfo"/> object.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> object to get the filesize for.</param>
+        /// <exception cref="System.ObjectDisposedException"></exception>
+        public SizeInfo(Stream stream)
+            : this(stream.Length) {
+        }
+
+        /// <summary>
         /// Creates a new <see cref="SizeInfo"/> object based on the given <see cref="KiloBytes"/>.
         /// </summary>
         /// <param name="kiloBytes">The size in KB.</param>
@@ -115,6 +124,16 @@ namespace Kf.Core.IO
         /// <returns>A <see cref="FileSizeInfo"/> object.</returns>
         public static SizeInfo FromMemoryStream(MemoryStream memoryStream) {
             return new SizeInfo(memoryStream);
+        }
+
+        /// <summary>
+        /// Creates a new <see cref="SizeInfo"/> object based on a given <see cref="Stream"/>.
+        /// </summary>
+        /// <param name="stream">The <see cref="Stream"/> object to get the filesize for.</param>
+        /// <exception cref="System.ObjectDisposedException"></exception>
+        /// <returns>A <see cref="FileSizeInfo"/> object.</returns>
+        public static SizeInfo FromStream(Stream stream) {
+            return new SizeInfo(stream);
         }
         #endregion
     }
