@@ -55,6 +55,7 @@
     <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensions.cs" />
     <Compile Include="%28extensions%29\Range\IRangeExtensions.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensions.cs" />
+    <Compile Include="%28extensions%29\System\IO\MemoryStreamExtensions.cs" />
     <Compile Include="%28extensions%29\System\ObjectExtensions.cs" />
     <Compile Include="%28extensions%29\System\StringExtensions.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensions.cs" />
