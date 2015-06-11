@@ -77,6 +77,7 @@
     <Compile Include="%28extensions%29\System\StringExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensionsTests.cs" />
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelperTests.cs" />
+    <Compile Include="IO\SizeInfoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Range\DateTimeRangeTests.cs" />
     <Compile Include="Range\Int16RangeTests.cs" />
