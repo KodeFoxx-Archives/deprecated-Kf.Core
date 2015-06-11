@@ -72,10 +72,12 @@
     <Compile Include="%28conventions%29\Timestamping\DefaultConvention\DefaultTimestampParserTests.cs" />
     <Compile Include="%28conventions%29\Versioning\DefaultConvention\DefaultVersionBuildDateParserTests.cs" />
     <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensionsTests.cs" />
+    <Compile Include="%28extensions%29\Collections\IEnumerableOfTExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\ObjectExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\StringExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensionsTests.cs" />
+    <Compile Include="%28helpers%29\ForEach\ForEachHelperTests.cs" />
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelperTests.cs" />
     <Compile Include="IO\SizeInfoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

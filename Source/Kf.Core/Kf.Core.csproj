@@ -53,6 +53,7 @@
     <Compile Include="%28conventions%29\Versioning\DefaultConvention\DefaultVersionBuildDateParser.cs" />
     <Compile Include="%28conventions%29\Versioning\Interfaces\IVersionBuildDateParser.cs" />
     <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensions.cs" />
+    <Compile Include="%28extensions%29\Collections\IEnumerableOfTExtensions.cs" />
     <Compile Include="%28extensions%29\Range\IRangeExtensions.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensions.cs" />
     <Compile Include="%28extensions%29\System\IO\MemoryStreamExtensions.cs" />
@@ -60,6 +61,8 @@
     <Compile Include="%28extensions%29\System\ObjectExtensions.cs" />
     <Compile Include="%28extensions%29\System\StringExtensions.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensions.cs" />
+    <Compile Include="%28helpers%29\ForEach\ForEachHelper.cs" />
+    <Compile Include="%28helpers%29\ForEach\ForEachItem.cs" />
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelper.cs" />
     <Compile Include="IO\SizeInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
