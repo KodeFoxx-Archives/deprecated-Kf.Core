@@ -66,6 +66,7 @@
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelper.cs" />
     <Compile Include="IO\SizeInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randomization\StaticRandom.cs" />
     <Compile Include="Range\DateTimeRange.cs" />
     <Compile Include="Range\ImmtuableRange.cs" />
     <Compile Include="Range\Int16Range.cs" />
