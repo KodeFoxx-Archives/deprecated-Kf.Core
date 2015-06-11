@@ -2,7 +2,7 @@
 
 namespace Kf.Core.Conventions.Timestamping.Interfaces
 {
-    public interface ITimestampFormatParser
+    public interface ITimestampParser
     {
         DateTime TryParseToDateTime(string timestamp);
     }

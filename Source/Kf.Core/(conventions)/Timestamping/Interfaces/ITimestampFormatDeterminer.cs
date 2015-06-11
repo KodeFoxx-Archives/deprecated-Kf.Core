@@ -1,6 +1,6 @@
 ﻿namespace Kf.Core.Conventions.Timestamping.Interfaces
 {
-    public interface ITimestampInterpreter
+    public interface ITimestampFormatDeterminer
     {        
         TimestampFormat DetermineFormat(string timestamp);
     }
