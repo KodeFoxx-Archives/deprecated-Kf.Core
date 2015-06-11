@@ -67,6 +67,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="%28conventions%29\StringConventionsTests.cs" />
+    <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensionsTests.cs" />
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelperTests.cs" />
