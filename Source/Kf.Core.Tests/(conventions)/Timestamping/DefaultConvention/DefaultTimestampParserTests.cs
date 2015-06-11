@@ -11,7 +11,7 @@ namespace Kf.Core.Tests._conventions_.Timestamping.DefaultConvention
             var sut = new DefaultTimestampParser();
             var shortTimestamp = "19851011";
             var expected = new DateTime(1985, 10, 11);
-            var actual = sut.TryParseToDateTime(shortTimestamp);
+            var actual = sut.TryParseDateTime(shortTimestamp);
 
             Assert.Equal(expected, actual);
         }
@@ -21,7 +21,7 @@ namespace Kf.Core.Tests._conventions_.Timestamping.DefaultConvention
             var sut = new DefaultTimestampParser();
             var longTimestamp = "19851011.151559";
             var expected = new DateTime(1985, 10, 11, 15, 15, 59);
-            var actual = sut.TryParseToDateTime(longTimestamp);
+            var actual = sut.TryParseDateTime(longTimestamp);
 
             Assert.Equal(expected, actual);
         }
@@ -31,7 +31,7 @@ namespace Kf.Core.Tests._conventions_.Timestamping.DefaultConvention
             var sut = new DefaultTimestampParser();
             var extendedTimestamp = "19851011.151617.002";
             var expected = new DateTime(1985, 10, 11, 15, 16, 17, 2);
-            var actual = sut.TryParseToDateTime(extendedTimestamp);
+            var actual = sut.TryParseDateTime(extendedTimestamp);
 
             Assert.Equal(expected, actual);
         }

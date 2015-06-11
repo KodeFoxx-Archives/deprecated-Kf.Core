@@ -70,6 +70,7 @@
     <Compile Include="%28conventions%29\Timestamping\DefaultConvention\DefaultTimestampFormatDeterminerTests.cs" />
     <Compile Include="%28conventions%29\Timestamping\DefaultConvention\DefaultTimestampFormatterTests.cs" />
     <Compile Include="%28conventions%29\Timestamping\DefaultConvention\DefaultTimestampParserTests.cs" />
+    <Compile Include="%28conventions%29\Versioning\DefaultConvention\DefaultVersionBuildDateParserTests.cs" />
     <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensionsTests.cs" />
     <Compile Include="%28extensions%29\System\ObjectExtensionsTests.cs" />

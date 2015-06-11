@@ -16,7 +16,7 @@ namespace Kf.Core.Conventions.Timestamping.Interfaces
             FormatDeterminer = timestampFormatDeterminer;
         }
 
-        public virtual DateTime TryParseToDateTime(string timestamp) {
+        public virtual DateTime TryParseDateTime(string timestamp) {
             var timestampFormat = FormatDeterminer.DetermineFormat(timestamp);
 
             switch (timestampFormat) {

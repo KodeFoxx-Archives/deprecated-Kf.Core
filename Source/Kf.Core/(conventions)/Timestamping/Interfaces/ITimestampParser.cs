@@ -4,6 +4,6 @@ namespace Kf.Core.Conventions.Timestamping.Interfaces
 {
     public interface ITimestampParser
     {
-        DateTime TryParseToDateTime(string timestamp);
+        DateTime TryParseDateTime(string timestamp);
     }
 }

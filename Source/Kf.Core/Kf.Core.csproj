@@ -50,6 +50,8 @@
     <Compile Include="%28conventions%29\Timestamping\Interfaces\TimestampFormatter.cs" />
     <Compile Include="%28conventions%29\Timestamping\Interfaces\TimestampParser.cs" />
     <Compile Include="%28conventions%29\Timestamping\TimestampFormat.cs" />
+    <Compile Include="%28conventions%29\Versioning\DefaultConvention\DefaultVersionBuildDateParser.cs" />
+    <Compile Include="%28conventions%29\Versioning\Interfaces\IVersionBuildDateParser.cs" />
     <Compile Include="%28extensions%29\Collections\IEnumerableOfStringExtensions.cs" />
     <Compile Include="%28extensions%29\Range\IRangeExtensions.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensions.cs" />
