@@ -40,6 +40,12 @@
   <ItemGroup>
     <Compile Include="%28conventions%29\StringConventions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Range\DateTimeRange.cs" />
+    <Compile Include="Range\ImmtuableRange.cs" />
+    <Compile Include="Range\Int16Range.cs" />
+    <Compile Include="Range\Int32Range.cs" />
+    <Compile Include="Range\Int64Range.cs" />
+    <Compile Include="Range\IRange.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
