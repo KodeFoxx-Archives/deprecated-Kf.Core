@@ -38,6 +38,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="%28conventions%29\StringConventions.cs" />
+    <Compile Include="%28conventions%29\Timestamping\Exceptions\TimestampException.cs" />
+    <Compile Include="%28conventions%29\Timestamping\Exceptions\UnknownTimestampFormatException.cs" />
     <Compile Include="%28conventions%29\Timestamping\Interfaces\ITimestampFormatDeterminer.cs" />
     <Compile Include="%28conventions%29\Timestamping\Interfaces\ITimestampFormatParser.cs" />
     <Compile Include="%28conventions%29\Timestamping\Interfaces\ITimestampFormatter.cs" />
