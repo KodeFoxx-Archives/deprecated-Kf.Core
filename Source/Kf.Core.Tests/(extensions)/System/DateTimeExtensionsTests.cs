@@ -76,5 +76,49 @@ namespace Kf.Core.Tests._extensions_.System
             Assert.False(sut.IsDayIn(daysToMatch));
         }
         #endregion
+
+        #region NextDay (Method Family)
+        [Fact]
+        public void NextDayReturnsNextDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = sut.AddDays(1);
+            Assert.Equal(expected, sut.NextDay());
+        }
+
+        [Fact]
+        public void PreviousDayReturnsPreviousDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = sut.AddDays(-1);
+            Assert.Equal(expected, sut.PreviousDay());
+        }
+
+        [Fact]
+        public void NextDayWithGivenDayOfWeekReturnsNextDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = new DateTime(1985, 10, 14, 15, 16, 17);
+            Assert.Equal(expected, sut.NextDay(DayOfWeek.Monday));
+        }
+
+        [Fact]
+        public void NextDayWithGivenCurrentDayOfWeekReturnsNextDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = new DateTime(1985, 10, 18, 15, 16, 17);
+            Assert.Equal(expected, sut.NextDay(DayOfWeek.Friday));
+        }
+
+        [Fact]
+        public void PreviousDayWithGivenDayOfWeekReturnsPreviousDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = new DateTime(1985, 10, 7, 15, 16, 17);
+            Assert.Equal(expected, sut.PreviousDay(DayOfWeek.Monday));
+        }
+
+        [Fact]
+        public void PreviousDayWithGivenCurrentDayOfWeekReturnsPreviousDay() {
+            var sut = new DateTime(1985, 10, 11, 15, 16, 17);
+            var expected = new DateTime(1985, 10, 4, 15, 16, 17);
+            Assert.Equal(expected, sut.PreviousDay(DayOfWeek.Friday));
+        }
+        #endregion
     }
 }
