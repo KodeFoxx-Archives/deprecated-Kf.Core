@@ -72,6 +72,7 @@
     <Compile Include="Range\Int16RangeTests.cs" />
     <Compile Include="Range\Int32RangeTests.cs" />
     <Compile Include="Range\Int64RangeTests.cs" />
+    <Compile Include="Range\TimeSpanRangeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kf.Core\Kf.Core.csproj">
