@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="%28conventions%29\StringConventions.cs" />
+    <Compile Include="%28helpers%29\System\FriendlyTypeNameHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Range\DateTimeRange.cs" />
     <Compile Include="Range\ImmtuableRange.cs" />
