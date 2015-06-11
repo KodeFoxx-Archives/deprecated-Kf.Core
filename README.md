@@ -6,4 +6,4 @@ Kf (KodeFoxx) Core holds a set of .Net classes and objects that speeds up, at le
 
 Some things I want to clarify:
 - **Conventions** are enforced to be used throughout the project. They are documented in code.
-- **xtension Methods** should always be under the root namespace of "Kf", they are collected in the "Extensions" project folder.
+- **Extension Methods** should always be under the root namespace of "Kf", they are collected in the "Extensions" project folder.
