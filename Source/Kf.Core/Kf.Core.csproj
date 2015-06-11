@@ -42,6 +42,7 @@
     <Compile Include="%28extensions%29\Range\IRangeExtensions.cs" />
     <Compile Include="%28extensions%29\System\DateTimeExtensions.cs" />
     <Compile Include="%28extensions%29\System\ObjectExtensions.cs" />
+    <Compile Include="%28extensions%29\System\StringExtensions.cs" />
     <Compile Include="%28extensions%29\System\TypeExtensions.cs" />
     <Compile Include="%28helpers%29\System\FriendlyTypeNameHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
