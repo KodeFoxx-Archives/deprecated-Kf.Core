@@ -2,6 +2,8 @@
 **Basic .Net helper classes, because I hate writing code twice.**
 Kf (KodeFoxx) Core holds a set of .Net classes and objects that speeds up, at least, my development. It's meant to be lightweight and if a new feature is considered, it should be considered again before actually adding it here.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/64q07gjvg37us2os?svg=true)](https://ci.appveyor.com/project/aredfox/kf-core)
+
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Some things...
